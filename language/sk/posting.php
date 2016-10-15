@@ -254,7 +254,7 @@ $lang = array_merge($lang, array(
 	'TOO_FEW_CHARS'				=> 'Vaša správa obsahuje príliš málo znakov.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
 		1	=> 'Minimálny počet je %1$d znak.',
-		2	=> 'Minimálny počet sú %1$d zanky.',
+		2	=> 'Minimálny počet sú %1$d znaky.',
 		3	=> 'Minimálny počet je %1$d znakov.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Musíte vložiť najmenej dve hlasovacie otázky.',
