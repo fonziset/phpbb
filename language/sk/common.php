@@ -394,7 +394,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_REQUIRED'					=> 'Ak chcete vykonať túto akciu musíte byť prihlásený.',
 	'LOGOUT'							=> 'Odhlásiť sa',
 	'LOGOUT_USER'						=> 'Odhlásiť sa ako [%s]',
-	'LOG_ME_IN'							=> 'V budúcnosti ma automaticky prihlásiť',
+	'LOG_ME_IN'							=> 'Zapamätať prihlásenie',
 
 	'MAIN'					=> 'Hlavné',
 	'MARK'					=> 'Označiť',
