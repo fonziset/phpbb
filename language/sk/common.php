@@ -397,7 +397,7 @@ $lang = array_merge($lang, array(
 	'LOG_ME_IN'							=> 'Zapamätať prihlásenie',
 
 	'MAIN'					=> 'Hlavné',
-	'MARK'					=> 'Označiť',
+	'MARK'					=> '#',
 	'MARK_ALL'				=> 'Označiť všetko',
 	'MARK_ALL_READ'			=> 'Označiť všetko ako prečítané',
 	'MARK_FORUMS_READ'		=> 'Označiť všetky fóra ako prečítané',
