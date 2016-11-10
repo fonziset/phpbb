@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // Common
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Administrátori',
-	'ACP_ADMIN_LOGS'			=> 'Administračný log',
+	'ACP_ADMIN_LOGS'			=> 'Administračný záznam',
 	'ACP_ADMIN_ROLES'			=> 'Administrátorské roly',
 	'ACP_ATTACHMENTS'			=> 'Prílohy',
 	'ACP_ATTACHMENT_SETTINGS'	=> 'Nastavenie príloh',
