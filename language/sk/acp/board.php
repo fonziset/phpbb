@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Tu môžete určovať základné nastavenia vášho fóra, počínajúc názvom fóra a jeho popisom, až po základné hodnoty časovej zóny a jazyka.',
 	'BOARD_INDEX_TEXT'				=> 'Text „Obsahu fóra“',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> '"Bude tento text zobrazený miesto „Obsahu fóra“ v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený „Obsah fóra“.',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Bude tento text zobrazený na miesto „Obsahu fóra“ v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený „Obsah fóra“.',
 	'BOARD_STYLE'					=> 'Vzhľad fóra',
 	'CUSTOM_DATEFORMAT'				=> 'Voliteľné…',
 	'DEFAULT_DATE_FORMAT'			=> 'Formát dátumu',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Použije prednastavený vzhľad namiesto užívateľom zvoleného.',
 	'SITE_DESC'						=> 'Popis fóra',
 	'SITE_HOME_TEXT'				=> 'Text odkazu na hlavnej stránke',
-	'SITE_HOME_TEXT_EXPLAIN'		=> 'Bude tento text zobrazený ako odkaz na vašu domovskú stránku v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený “Domov”.',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Bude tento text zobrazený ako odkaz na vašu domovskú stránku v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený „Domov“.',
 	'SITE_HOME_URL'					=> 'Odkaz na hlavnú stránku fóra',
 	'SITE_HOME_URL_EXPLAIN'			=> 'If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Názov fóra',
