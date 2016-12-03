@@ -3,7 +3,7 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
-* @author phpBB3.sk, Senky
+* @author phpBB3.sk, Senky, Fonzi
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -40,9 +40,9 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Tu môžete určovať základné nastavenia vášho fóra, počínajúc názvom fóra a jeho popisom, až po základné hodnoty časovej zóny a jazyka.',
-	'BOARD_INDEX_TEXT'				=> 'Board index text',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'This text is displayed as the board index in the board’s breadcrumbs. If not specified, it will default to “Board index”.',
-	'BOARD_STYLE'					=> 'Board style',
+	'BOARD_INDEX_TEXT'				=> 'Text „Obsahu fóra“',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> '"Bude tento text zobrazený miesto „Obsahu fóra“ v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený „Obsah fóra“.',
+	'BOARD_STYLE'					=> 'Vzhľad fóra',
 	'CUSTOM_DATEFORMAT'				=> 'Voliteľné…',
 	'DEFAULT_DATE_FORMAT'			=> 'Formát dátumu',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Použitá syntax je zhodná s PHP funkciou <code>date</code>.',
@@ -53,14 +53,14 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Týmto zneprístupníte fórum pre užívateľov. Môžete tiež vložiť krátku (255 znakovú) správu, ktorá sa bude zobrazovať.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Display subject of last added post on forum list',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'The subject of the last added post will be displayed in the forum list with a hyperlink to the post. Subjects from password protected forums and forums in which user doesn’t have read access are not shown.',
-	'GUEST_STYLE'					=> 'Guest style',
-	'GUEST_STYLE_EXPLAIN'			=> 'The board style for guests.',
+	'GUEST_STYLE'					=> 'Vzhľad pre hosťa',
+	'GUEST_STYLE_EXPLAIN'			=> 'Vzhľad fora pre hostí.',
 	'OVERRIDE_STYLE'				=> 'Nahradiť užívateľom zvolený vzhľad',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Použije prednastavený vzhľad namiesto užívateľom zvoleného.',
 	'SITE_DESC'						=> 'Popis fóra',
-	'SITE_HOME_TEXT'				=> 'Main website text',
-	'SITE_HOME_TEXT_EXPLAIN'		=> 'This text will be displayed as a link to your website homepage in the board’s breadcrumbs. If not specified, it will default to “Home”.',
-	'SITE_HOME_URL'					=> 'Main website URL',
+	'SITE_HOME_TEXT'				=> 'Text odkazu na hlavnej stránke',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Bude tento text zobrazený ako odkaz na vašu domovskú stránku v navigácii fórach. Ak necháte prázdne, bude zobrazený predvolený “Domov”.',
+	'SITE_HOME_URL'					=> 'Odkaz na hlavnú stránku fóra',
 	'SITE_HOME_URL_EXPLAIN'			=> 'If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Názov fóra',
 	'SYSTEM_TIMEZONE'				=> 'Časové pásmo hostí',
